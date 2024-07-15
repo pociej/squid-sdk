@@ -462,6 +462,12 @@
       "versionPolicyName": "npm"
     },
     {
+      "packageName": "@subsquid/kafka-sink",
+      "projectFolder": "kafka",
+      "shouldPublish": false,
+      "versionPolicyName": "npm"
+    },
+    {
       "packageName": "@subsquid/openreader",
       "projectFolder": "graphql/openreader",
       "shouldPublish": true,
@@ -591,6 +597,7 @@
       "shouldPublish": true,
       "versionPolicyName": "npm"
     },
+    
     {
       "packageName": "@subsquid/substrate-runtime",
       "projectFolder": "substrate/substrate-runtime",
