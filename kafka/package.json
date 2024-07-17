@@ -1,8 +1,16 @@
 {
-  "name": "@squid/kafka-sink",
+  "name": "@subsquid/kafka-sink",
   "module": "src/index.ts",
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "rm -rf lib && tsc"
   },
   "dependencies": {
     "@subsquid/util-internal": "^3.2.0",
